@@ -1,0 +1,19 @@
+Mon Mar 12 13:08:54 PDT 2018 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Mon Mar 12 13:08:54 PDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0162-1bd4-6e52-00005932fdb8 
+on database directory D:\Documents\CSCD 488\DATAEXTRACTORV1\DataExtractor\canDB\pcc with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4f8e5cde 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_121/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=9.0.1+11
+user.dir=C:\Program Files\Java\jdk1.8.0_121\db
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=D:\Documents\CSCD 488\DATAEXTRACTORV1\DataExtractor\canDB
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Mar 12 16:07:39 PDT 2018: Shutting down Derby engine
+----------------------------------------------------------------
+Mon Mar 12 16:07:39 PDT 2018:
+Shutting down instance a816c00e-0162-1bd4-6e52-00005932fdb8 on database directory D:\Documents\CSCD 488\DATAEXTRACTORV1\DataExtractor\canDB\pcc with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4f8e5cde 

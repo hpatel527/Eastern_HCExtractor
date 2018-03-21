@@ -1,0 +1,17 @@
+TIMED INTERVAL: CANID_HB_TIMESYNC_2 00600000
+CD:   0 0x00400000   64 CANID_HB_TIMESYNC	255 GPS_1: GPS time sync distribution msg		Payload UNDEF dlc:01: 3c 
+CD:   1 0x00600000   64 CANID_HB_TIMESYNC_2	255 GPS_2: GPS time sync distribution msg		Payload UNDEF dlc:01: 3d 
+CD:   2 0x38000000   64 CANID_MSG_TENSION_a11	21 Tension_a11: Drum 1 calibrated tension, polled by time msg		5: 00:     0.000000 
+CD:   3 0x38200000   64 CANID_MSG_TENSION_a21	21 Tension_a12: Drum 1 calibrated tension, polled by time msg		5: 00:     0.000000 
+CD:   4 0x38400000   64 CANID_MSG_TENSION_a12	21 Tension_a21: Drum 2 calibrated tension, polled by time msg		5: 00:     0.000000 
+CD:   5 0x38600000   64 CANID_MSG_TENSION_a22	21 Tension_a22: Drum 2 calibrated tension, polled by time msg		5: 00:     0.000000 
+CD:   6 0xE0200000    1 CANID_HB_GATEWAY1	 0 Gateway1: Heartbeat		dlc:00: No payload bytes
+CD:   7 0xE1000000    1 CANID_HB_GPS_TIME_1	24 GPS_1: Heartbeat unix time		2016.10.18.20.44.02
+CD:   8 0xE1800000    0 CANID_HB_LOGGER_1	 5 Logger_1: Heartbeat logging ctr		5: 00: a5 81 3b 40 1077641637
+CD:   9 0xE1A00000    0 CANID_HB_LOGGER_2	 5 Logger_2: Heartbeat logging ctr		5: 00: 02 72 4f 0c 206533122
+CD:  10 0xE1C00000    1 CANID_HB_GPS_LLH_1	20 GPS_1: Heartbeat (3 separate msgs) lattitude longitude height		GPS conversion NG: 0E
+CD:  11 0xE1E00000    1 CANID_HB_GPS_TIME_2	24 GPS_2: Heartbeat unix time		2016.10.18.20.44.02
+CD:  12 0xE2600000    1 CANID_HB_GPS_LLH_2	20 GPS_2: Heartbeat (3 separate msgs) lattitude longitude height		GPS conversion NG: 0E
+CD:  13 0xF0400000    2 CANID_HB_CANSENDER_2	 5 Cansender_2: Heartbeat w ctr		5: 00: 39 67 79 00  7956281
+SECS:    30 NUMBER IN LISTs: 14  14
+TIMED INTERVAL: CANID_HB_TIMESYNC_2 00600000

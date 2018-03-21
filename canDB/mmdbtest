@@ -1,0 +1,1 @@
+cd ..; ./mmdb;cd db;./mmtest

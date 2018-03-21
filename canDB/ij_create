@@ -1,0 +1,7 @@
+!/bin/bash
+# ij_create
+# Generate 'ij' script and execute
+echo "connect 'jdbc:derby://localhost:1527/$HOME/gittest/gitrepo/svn_common/trunk/db/pcc;create = true';" x
+ij x
+
+exit

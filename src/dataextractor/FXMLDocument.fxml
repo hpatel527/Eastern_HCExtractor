@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="1314.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dataextractor.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TableView fx:id="payloadTable" editable="true" layoutX="4.0" layoutY="105.0" prefHeight="500.0" prefWidth="1307.0" />
+      <Button fx:id="startExtract" layoutX="598.0" layoutY="74.0" mnemonicParsing="false" onAction="#handleButtonActionExtract" text="Begin Extaction" />
+      <Button fx:id="fileChooseBtn" layoutX="498.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleButtonActionFile" text="Choose Log File" />
+      <TextField id="fileName" fx:id="fileNameLabel" editable="false" layoutX="674.0" layoutY="41.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+--
+DROP TABLE TMP;
+--
+CREATE TABLE TMP
+(
+CANID_NAME varchar(48) PRIMARY KEY,
+CANID_HEX varchar(8),
+CANID_TYPE varchar(24),
+CAN_MSG_FMT varchar(16),
+DESCRIPTION varchar(128),
+PAYLOAD_TYPE_NAME varchar(24),
+PAYLOAD_TYPE_CODE numeric(4),
+DESCRIPTION12 varchar(128) 
+);
+
